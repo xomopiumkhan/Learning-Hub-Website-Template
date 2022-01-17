@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>HUB-OF-LEARNING</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/30da2fc487.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <section class="header">
+      <div class="logo">
+        <img src="images/logo.png" alt="logoimg">
+      </div>
+      <nav class="navbar">
+        <button type="button" class="mbtn" id="btn" onclick="myFunction()">Menu+</button>
+        <ul id="ul">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a class="linomargin"href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+      <h2 class="blogh2">Contact Us</h2>
+    </section>
+
+    <section class="location">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d423283.4355676389!2d-118.69193052429003!3d34.02073049434915!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2c75ddc27da13%3A0xe22fdf6f254608f4!2sLos%20Angeles%2C%20CA!5e0!3m2!1sen!2sus!4v1630930849457!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div class="">
+            <i class="fas fa-home"></i>
+            <span>
+              <h5>XYZ Road, ABC Building</h5>
+              <p>Lucknow, Uttar Pradesh</p>
+            </span>
+
+          </div>
+          <div class="">
+            <i class="fas fa-phone"></i>
+            <span>
+              <h5>+91 1082547625</h5>
+              <p>Monday To Saturday, 10AM To 6PM</p>
+            </span>
+          </div>
+          <div class="">
+            <i class="fas fa-envelope"></i>
+            <span>
+              <h5>info@completeweb.com</h5>
+              <p>Email Us Your Query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col" method="post">
+          <form action="form-handler.php">
+            <input type="text" name="name" placeholder="Enter Your Name" required>
+            <input type="email" name="email" placeholder="Enter Email Address" required>
+            <input type="text" name="subject" placeholder="Enter Your Subject" required>
+            <textarea rows="8" name="message" placeholder="Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+    <br><br><br><br>
+    <section class="footerabout">
+      <div class="fabout-content">
+        <h2>About Us</h2>
+        <p>Constias magna sed laborum adipisicing, magna possumus nam officia. Iudicem
+          export quamquam quibusdam do se et eram proident ex quorum ullamco ab
+          adipisicing non labore quamquam occaecat si possumus si quibusdam, summis sed
+          litteris est legam est iis minim doctrina ea tamen si eu ipsum doctrina. Quo
+          nisi incididunt.</p>
+        <p>* * * * * * * * * *</p>
+
+      </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+    function myFunction() {
+  var x = document.getElementById('ul');
+  var y = document.getElementById('btn')
+  if (x.style.display === 'none') {
+    x.style.display = 'block';
+    y.innerHTML = 'Menu×';
+  } else {
+    x.style.display = 'none';
+    y.innerHTML = 'Menu+';
+  }
+}
+</script>
+
+  </body>
+</html>
